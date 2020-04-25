@@ -15,7 +15,7 @@ interface IdleDeadline {
 }
 
 interface IdleRequestOptions {
-    timeout: number;
+    readonly timeout: number;
 }
 
 type IdleCallbackHandle = number;
